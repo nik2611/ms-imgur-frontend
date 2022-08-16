@@ -34,8 +34,14 @@
 .searchbar {
   flex: 1%;
   border-radius: 6px;
+  background-color: rgb(241, 241, 241);
   margin: 0px 20rem;
   font-size: medium;
+}
+
+.searchbar::placeholder {
+  color: black;
+  padding-left: 5px;
 }
 
 .signIn-btn {
@@ -112,7 +118,7 @@ h2 {
 
 .popup-box {
   position: fixed;
-  background: #00000050;
+  background: #00000075;
   width: 100%;
   height: 100vh;
   top: 0;
@@ -126,7 +132,7 @@ h2 {
   height: auto;
   max-height: 70vh;
   margin-top: calc(100vh - 85vh - 20px);
-  background: #fff;
+  background: rgba(230, 232, 236, 0.972);
   border-radius: 4px;
   padding: 20px;
   border: 1px solid #999;
@@ -147,4 +153,85 @@ h2 {
   text-align: center;
   border: 1px solid #999;
   font-size: 20px;
+}
+
+.title {
+  font-size: medium;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.signIn {
+  text-align: center;
+  justify-content: center;
+}
+
+.signIn .buttons {
+  display: flex;
+  flex-wrap: center;
+  padding: 15px;
+  margin: 1px 22vw;
+  column-gap: 10px;
+}
+
+.btn {
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 7px;
+  background-color: rgba(56, 64, 66, 0.568);
+  border-radius: 5px;
+}
+
+.btn-f {
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 7px 24px;
+  background-color: rgba(56, 64, 66, 0.568);
+  border-radius: 5px;
+}
+
+.btn-g {
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 7px 17px;
+  background-color: rgba(56, 64, 66, 0.568);
+  border-radius: 5px;
+}
+
+.btn-y {
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 7px 14px;
+  background-color: rgba(56, 64, 66, 0.568);
+  border-radius: 5px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw 15vw;
+}
+
+.input-1 {
+  font-size: large;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin: 2px;
+  background-color: rgba(56, 64, 66, 0.568);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.nextBtn {
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 6px 9px;
+  background-color: mediumslateblue;
+  justify-content: flex-end;
 }

@@ -1,15 +1,14 @@
 import React from "react";
-import { BsFillPlusSquareFill } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs"
+import NewPost from "./newpost"
+import SignIn from "./signIn";
 export default function Navbar() {
     return (
         <navbar className="navbar">
             <div className="head">
                 <a>imgur</a>
             </div>
-            <button className="newPost-btn">
-                <BsFillPlusSquareFill></BsFillPlusSquareFill> New Post
-            </button>
+            <NewPost />
             <input className='searchbar'
                 type="text"
                 placeholder="Search"
@@ -18,9 +17,7 @@ export default function Navbar() {
             <button className="signUp-btn" type="submit">
                 Sign up
             </button>
-            <button className="signIn-btn" type="submit">
-                Sign in
-            </button>
+            <SignIn />
         </navbar>
     );
 }
