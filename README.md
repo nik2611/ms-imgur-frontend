@@ -1,5 +1,8 @@
 # Milestone-7: Imgur
 
+Visit this link to check deployed app
+https://ms-imgur-frontend.herokuapp.com/
+
 ## Learning Competencies
 
 At the end of this milestone you will learn
