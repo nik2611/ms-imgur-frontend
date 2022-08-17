@@ -73,6 +73,7 @@
   column-width: 33%;
   margin: 3rem 8rem;
   text-align: center;
+  
 }
 
 .img-card {
@@ -83,6 +84,7 @@
   justify-content: center;
   background-color: #979494;
   cursor: pointer;
+  overflow: auto;
 }
 
 h2 {
@@ -127,7 +129,7 @@ h2 {
 
 .box {
   position: relative;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   height: auto;
   max-height: 70vh;
@@ -143,7 +145,7 @@ h2 {
   content: "x";
   cursor: pointer;
   position: fixed;
-  right: calc(15% - 30px);
+  right: calc(20% - 30px);
   top: calc(100vh - 85vh - 33px);
   background: #ededed;
   width: 25px;
@@ -171,7 +173,7 @@ h2 {
   display: flex;
   flex-wrap: center;
   padding: 15px;
-  margin: 1px 22vw;
+  margin: 1px 18vw;
   column-gap: 10px;
 }
 
@@ -235,3 +237,68 @@ h2 {
   background-color: mediumslateblue;
   justify-content: flex-end;
 }
+
+/*DROPDOWN button CSS*/
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 9px 20px;
+  margin: 5px 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 7.3rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #393741;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #8275b5}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  right: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* FOOTER component CSS */
+.footer-flexCont {
+  display: flex;
+  flex-direction: right;
+  background-color: rgb(51, 58, 78);
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.footer-flexItems {
+  flex: 7%;
+  
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+

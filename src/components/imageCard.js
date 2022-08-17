@@ -6,7 +6,8 @@ export default function ImageCard(props) {
             id: 1,
             img:
                 "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg",
-            title: "dog"
+            title: "dog",
+    
         },
         {
             id: 2,
